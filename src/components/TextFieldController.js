@@ -5,7 +5,6 @@ import PropTypes from "prop-types";
 
 const TextFieldController = (props)=>{
     const { field, fieldState } = useController(props);
-    const {control} = useForm()
     return (
         <TextField {...field}
                    label={props.label}
